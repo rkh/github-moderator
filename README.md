@@ -1,1 +1,2 @@
-Allows someone who is not an owner to add and remove users from a Github team.
+Allows someone who is not an owner to add users to a Github team.
+Super simple!
