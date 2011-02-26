@@ -1,0 +1,11 @@
+---
+org_id: 123
+admin:
+  name: admin
+  token: asda1231jakji29awoe02312kdad
+moderators:
+  - someone
+  - else
+oauth:
+  id: 398d496e6f5f63250372
+  secret: 93b330a6e14cc0a4d029066f836800bb2425dfda

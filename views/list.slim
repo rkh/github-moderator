@@ -1,0 +1,14 @@
+h2 Members
+
+ul
+  - members.each do |u|
+    li
+      b
+        a href="https://github.com/#{u['login']}"
+          = u['login']
+      | &nbsp; - &nbsp;
+      a href="/remove/#{u['login']}" delete
+
+form action="/add" method="post"
+  input name="name" type="text"
+  input type="submit" value="add"
